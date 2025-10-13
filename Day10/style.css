@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'horror-font';
+    src: url('Melted Monster.ttf')
+}
+body{
+    background-color: black;
+}
+
+h1{
+    font-family: 'horror-font';
+    font-size: 50px;
+    color: red;
+    text-align: center;
+}
