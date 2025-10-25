@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('crayomayo/Crayomayo-Personal-Use-Only.ttf');
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box; 
+    font-family: 'MyFont';
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #f4efe9;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    padding: 30px 70px;
+    display: flex;
+}
+
+#main h2{
+  margin:0 250px;  
+  font-weight: 300;
+  font-size: 50px;
+}
+#nav a{
+    font-size:25px;
+    justify-content: start;
+    text-decoration: none;
+    color:black;
+    margin-right: 20px;
+}
+
+#main h1{
+    font-family:  Helvetica;
+    font-size: 300px;
+    padding-left: 30px;
+    font-weight: 300;
+    color: #333333;
+}
+
+#btm-left{
+    padding: 20px 20px;
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+}
+
+#btm-left h4{
+    margin-top: 20px;
+}
+
+#btm-left p{
+    margin-top: 10px;
+    line-height: 25px;
+    font-size: 18px;
+    color: #555555;
+}
+
+#bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding:30px 70px;
+    position: absolute;
+    bottom: 10px;
+    left:0;
+}
+
+#main>img{
+    position:absolute;
+
+}
+#first-img{
+    top:55%;
+    left:43%;
+    height: 260px;
+    width: 200px;
+}
+#second-img{
+    top:42%;
+    right: 24%;
+    height: 350px;
+}
+#third-img{
+    bottom:5%;
+    right:35%;
+    height: 200px;
+    width: 170px;
+}
